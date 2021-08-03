@@ -1,0 +1,27 @@
+progress[value] {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+progress[value]::-webkit-progress-bar {
+    background-color: "green";
+}
+
+progress[value] {
+    -moz-appearance: none;
+    appearance: none;
+    border: none;                /* Firefox also renders a border */
+}
+
+progress[value]  {
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+  
+    border: none;                       /* Remove border from Firefox */
+  
+    width: 250px;
+    height: 20px;
+  
+    color: blue; 
+}
